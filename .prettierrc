@@ -1,0 +1,11 @@
+{
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "embeddedLanguageFormatting": "auto",
+    "jsxSingleQuote": false,
+    "bracketSameLine": false,
+    "cursorOffset": -1,
+    "editorconfig": false,
+    "endOfLine": "lf",
+    "plugins": ["prettier-plugin-tailwindcss"]
+}

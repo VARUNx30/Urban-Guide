@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Urban Guide</title>
+    <style>
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        .v-lazy-image {
+            opacity: 0;
+            transition: opacity 1s ease;
+        }
+
+        .v-lazy-image-loaded {
+            opacity: 1;
+        }
+
+    </style>
+</head>
+
+<body class="overflow-x-hidden">
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
